@@ -1,79 +1,39 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Aplikasi Perpustakaan Online
 
-# Getting Started
+Aplikasi Perpustakaan Online adalah platform digital yang memudahkan pengguna untuk mengelola buku dan melakukan peminjaman secara efisien. Aplikasi ini memiliki dua peran utama: **Admin** dan **User**.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Fitur untuk Admin
+1. **Menambahkan Buku Baru**: Admin dapat menambahkan data buku baru ke dalam aplikasi, termasuk informasi seperti judul, pengarang, tahun terbit, dan deskripsi buku.
+2. **Mengelola Data Buku**: Admin memiliki akses untuk mengelola (mengedit atau menghapus) data buku yang telah ditambahkan.
 
-## Step 1: Start the Metro Server
+## Fitur untuk User
+1. **Pencarian Buku**: User dapat mencari buku berdasarkan judul, pengarang, atau kata kunci untuk menemukan buku yang tersedia di perpustakaan.
+2. **Melihat Ringkasan Buku**: User dapat melihat informasi lengkap tentang buku yang ada, termasuk ringkasan dan detail lainnya seperti kategori, penerbit, dan tahun terbit.
+3. **Peminjaman Buku**: User dapat melakukan peminjaman buku yang tersedia dengan memasukkan data diri, dan buku yang dipinjam akan dicatat dalam sistem untuk proses pengembalian.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Screenshots
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Berikut adalah beberapa tampilan dari aplikasi:
 
-```bash
-# using npm
-npm start
+Tampilan User
+![Tampilan Beranda](https://github.com/user-attachments/assets/b1378fe5-b615-4bc7-8e34-5dfb731b7869)
+![Tampilan Detail Buku](https://github.com/user-attachments/assets/d7f666b5-4f2e-4833-9ba5-38fa8672f304)
+![Tampilan Pencarian Buku](https://github.com/user-attachments/assets/e26d84ab-a3f1-42f7-8dfb-6c7ec5a10c6e)
+![Tampilan Buku Yang Dipinjam](https://github.com/user-attachments/assets/8a1dbd41-dc14-4aa8-afe8-5578c7243bea)
+![Tampilan Peminjaman Buku](https://github.com/user-attachments/assets/f7099da0-7a40-4954-8bec-fa79d5cc493f)
+![Tampilan Login](https://github.com/user-attachments/assets/f89ebcde-e1ff-4f6a-be18-b257ac4dbe83)
 
-# OR using Yarn
-yarn start
-```
+Tampilan Admin
+![Tampilan Dashboard Admin](https://github.com/user-attachments/assets/c4165734-3f1a-42e7-8263-a43c78293626)
+![Tampilan Ketikan Memasukan Data Buku Baru](https://github.com/user-attachments/assets/1216c1ea-4ba7-4cba-822b-052bffac0251)
+![Tampilan Data Buku](https://github.com/user-attachments/assets/d76c71a8-000b-4677-8fdf-25a36b6eb8b2)
 
-## Step 2: Start your Application
+## Cara Menggunakan Aplikasi
+1. **Login**: Admin dan User harus login dengan kredensial masing-masing untuk mengakses aplikasi.
+2. **Admin**: Setelah login, admin dapat menambah, mengedit, dan menghapus buku.
+3. **User**: User dapat mencari buku, melihat ringkasan buku, dan melakukan peminjaman.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## Teknologi yang Digunakan
+- **Frontend**: React Native untuk pengembangan aplikasi mobile.
+- **Backend**: Express.js (untuk mengelola API dan database).
+- **Database**: PostgreSQL untuk menyimpan data buku dan peminjaman.
