@@ -36,7 +36,7 @@ const BorrowBook = ({route, navigation}) => {
         );
       }
     } finally {
-      setLoading(false); // Set loading false setelah pengecekan selesai
+      setLoading(false);
     }
   };
 

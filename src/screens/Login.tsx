@@ -14,27 +14,24 @@ const Login = ({navigation}) => {
   const [password, setPassword] = useState('');
 
   const handleLogin = async () => {
-    // Check if the email and password are "admin"
     if (email === 'admin' && password === 'admin') {
-      navigation.replace('Admin'); // Navigate to the Admin screen
+      navigation.replace('Admin');
       return;
     }
 
-    // Check for missing email or password
     if (!email || !password) {
       Alert.alert('Error', 'Email dan kata sandi harus diisi');
       return;
     }
 
     try {
-      // Perform login with API request
       const response = await api.post('/auth/login', {
         email: email,
         password: password,
       });
 
       if (response.status === 200) {
-        navigation.replace('App'); // Navigate to the main app screen
+        navigation.replace('App');
       } else {
         Alert.alert('Error', 'Login gagal, coba lagi');
       }

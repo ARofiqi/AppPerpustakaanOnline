@@ -23,14 +23,12 @@ const HomeStack = () => (
   </Stack.Navigator>
 );
 
-// Stack untuk bagian Admin
 const AdminStack = () => (
   <Stack.Navigator screenOptions={{headerShown: false}}>
     <Stack.Screen name="AdminDashboard" component={AdminDashboard} />
   </Stack.Navigator>
 );
 
-// Tab Navigator untuk aplikasi utama
 const TabNavigator = () => (
   <Tab.Navigator
     screenOptions={({route}) => ({
