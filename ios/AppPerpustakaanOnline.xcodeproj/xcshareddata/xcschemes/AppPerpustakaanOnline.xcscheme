@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "AplikasiInventoriBarang.app"
-               BlueprintName = "AplikasiInventoriBarang"
-               ReferencedContainer = "container:AplikasiInventoriBarang.xcodeproj">
+               BuildableName = "AppPerpustakaanOnline.app"
+               BlueprintName = "AppPerpustakaanOnline"
+               ReferencedContainer = "container:AppPerpustakaanOnline.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "AplikasiInventoriBarangTests.xctest"
-               BlueprintName = "AplikasiInventoriBarangTests"
-               ReferencedContainer = "container:AplikasiInventoriBarang.xcodeproj">
+               BuildableName = "AppPerpustakaanOnlineTests.xctest"
+               BlueprintName = "AppPerpustakaanOnlineTests"
+               ReferencedContainer = "container:AppPerpustakaanOnline.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AplikasiInventoriBarang.app"
-            BlueprintName = "AplikasiInventoriBarang"
-            ReferencedContainer = "container:AplikasiInventoriBarang.xcodeproj">
+            BuildableName = "AppPerpustakaanOnline.app"
+            BlueprintName = "AppPerpustakaanOnline"
+            ReferencedContainer = "container:AppPerpustakaanOnline.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AplikasiInventoriBarang.app"
-            BlueprintName = "AplikasiInventoriBarang"
-            ReferencedContainer = "container:AplikasiInventoriBarang.xcodeproj">
+            BuildableName = "AppPerpustakaanOnline.app"
+            BlueprintName = "AppPerpustakaanOnline"
+            ReferencedContainer = "container:AppPerpustakaanOnline.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
